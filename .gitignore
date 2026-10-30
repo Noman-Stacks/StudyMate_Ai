@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local data and generated files
+data/
+artifacts/
+*.faiss
+*.index
+*.log
+*.tmp
+*.temp
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
